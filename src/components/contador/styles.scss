@@ -1,0 +1,33 @@
+.contador {
+
+  text-align: center;
+  max-width: 300px;
+  margin-top: 50px;
+
+  .negative{
+    color: #ff0000
+  }
+  .positive{
+    color: #000;
+  }
+
+  button {
+    border: 0;
+    font-size: 20px;
+    width: 100px;
+    color: #fff;
+    margin: 0px 10px;
+    cursor: pointer;
+
+    &.subtract {
+      background: #ff0000;
+    }
+    &.plus {
+      background: #00ff40;
+    }
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

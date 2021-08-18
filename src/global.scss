@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+
+  display: flex;
+  flex-direction: column;
+
+
+  .Charmander {
+    color: rgb(253, 70, 70);
+  }
+
+  .Bulbasaur {
+    color: rgb(0, 151, 0);
+  }
+  .Squirtle {
+    color: rgb(87, 87, 255);
+  }
+}
