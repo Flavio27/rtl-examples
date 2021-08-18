@@ -1,11 +1,12 @@
 import { Dropdown } from "./Dropdown";
 import { screen, render, userEvent } from "../../tests";
 
-/** 
+/*
 * Regra 1 -  Dropdown começe fechado;
 * Regra 2 - Mostrar as opções quando for clicado, se clicado novamente ele fecha;
 * Regra 3 - Quando selecionar o item do menu, fechar e manter o qual foi selecionado;
 */
+
 const title = "Selecione o seu Pokémon";
 const options = ["Charmander", "Squirtle", "Bulbasaur"];
 

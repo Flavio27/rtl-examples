@@ -1,8 +1,7 @@
 import { Contador } from "./Contador";
 import { screen, render, userEvent } from "../../tests";
 
-
-/**
+/*
  * Regras:
  * O numero deve começar com 0
  * Ao clicar no botão incrementar o numero deve receber + 1
@@ -10,7 +9,6 @@ import { screen, render, userEvent } from "../../tests";
  * Se o numero numero for >= 0 ele deve permanecer da cor preto (class positive)
  * Se o numero for < 0 ele deve ficar vermelho (class negative)
  */
-
 
 describe("Contador", () =>{
 
