@@ -5,26 +5,26 @@ Este projeto aborda exemplos práticos de como realizar testes unitários de com
 
 ## Baixando e executando projeto 
 
-### Primeiramente clone o repositório em sua máquina utilizando o seu terminal:
+ Primeiramente clone o repositório em sua máquina utilizando o seu terminal:
 ````
 git clone https://github.com/Flavio27/rtl-examples.git
 ````
-### Após baixar o projeto navegue com o terminal até a pasta raiz do projeto e execute o comando:
+Após baixar o projeto navegue com o terminal até a pasta raiz do projeto e execute o comando:
 ````
 yarn install
 ````
-### Após a instalação das dependências execute o comando 
+Após a instalação das dependências execute o comando 
 ````
 yarn start
 ````
 
-### Após a inicialização do projeto, abra o seu navegador [http://localhost:3000](http://localhost:3000)
+Após a inicialização do projeto, abra o seu navegador [http://localhost:3000](http://localhost:3000)
 
 <hr>
 <br>
 
 ## Executando os testes 
-### Na pasta raiz do seu projeto com o terminal execute o comando
+Na pasta raiz do seu projeto com o terminal execute o comando
 ````
 yarn test
 ````
@@ -33,3 +33,4 @@ yarn test
 <br>
 
 ## Exemplos de teste em cada componente
+.
